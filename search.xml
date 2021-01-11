@@ -4,16 +4,41 @@
   
     
     <entry>
-      <title>如何使用git提交代码到github仓库</title>
-      <link href="2021/01/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%BB%93%E5%BA%93/"/>
-      <url>2021/01/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%BB%93%E5%BA%93/</url>
+      <title>2021-01-11-今日Mind</title>
+      <link href="2021/01/11/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%BD%A0%E4%B8%93%E5%B1%9E%E7%9A%84Blog/"/>
+      <url>2021/01/11/%E5%A6%82%E4%BD%95%E6%9E%84%E5%BB%BA%E4%BD%A0%E4%B8%93%E5%B1%9E%E7%9A%84Blog/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="步驟"><a href="#步驟" class="headerlink" title="步驟"></a>步驟</h2><pre><code>- 新建一個文件，用Git Bash打開- 初始化命令：git init- git add .- git commit -m &quot;first commit&quot; 引號里的內容是對此次提交的描述- git remote add origin https://github.com/coldfrontXu/coldfrontXu.github.io.git  此处的地址是你仓库Clone的地址- git push -f origin master</code></pre>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a><p>Where is  the Direction？</p><p>此时此刻内心是不快乐的…想到了很多事情</p><p>一天一天，时间过得很快，年龄渐渐增长。出到社会时间，说长不长，说短不短。现在，面临着着很多问题。</p><p>现在也不知道咋办，内心的恐慌由此而来。</p><p>有意义的充实可能会减少这种恐惧？</p><p>我是谁？我在干嘛？我在哪里？</p><p>没有逻辑可言，想到什么就写下来…</p>]]></content>
       
       
       <categories>
           
-          <category> 筆記 </category>
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Mind </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何使用git提交代码到github仓库</title>
+      <link href="2021/01/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%BB%93%E5%BA%93/"/>
+      <url>2021/01/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%88%B0github%E4%BB%93%E5%BA%93/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="步驟"><a href="#步驟" class="headerlink" title="步驟"></a>步驟</h2><pre><code>- 新建一個文件，用Git Bash打開- 初始化命令：git init- git add .- git commit -m &quot;first commit&quot; 引號里的內容是對此次提交的描述- git remote add origin https://github.com/coldfrontXu/coldfrontXu.github.io.git  此处的地址是你仓库Clone的地址- git push -f origin master</code></pre><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="本地初始化设置（邮箱和名称）"><a href="#本地初始化设置（邮箱和名称）" class="headerlink" title="本地初始化设置（邮箱和名称）"></a>本地初始化设置（邮箱和名称）</h3><pre><code>- 命令 git config --global user.name &quot;coldfrontXu&quot;  //这里的coldfrontXu是我自己github上的昵称- 命令 git config --global user.email &quot;xxxxxxxx@qq.com&quot;  //这里是你注册的邮箱地址</code></pre><h3 id="远程连接我们Github上的仓库（通过SSH-Key-公开密钥认证方式）"><a href="#远程连接我们Github上的仓库（通过SSH-Key-公开密钥认证方式）" class="headerlink" title="远程连接我们Github上的仓库（通过SSH Key 公开密钥认证方式）"></a>远程连接我们Github上的仓库（通过SSH Key 公开密钥认证方式）</h3><pre><code>- 创建公开密钥认证所需要的的SSH Key,并将其添加到GitHub- 使用git bash 运行命令：ssh-keygen -t rsa -C &quot;XXXXX@qq.com&quot;  //此处的邮箱地址还是你自己的邮箱，创建生成SSH Key</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
           
       </categories>
       
