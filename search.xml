@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何使用git更新仓库的代码</title>
+      <link href="2021/01/13/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%9B%B4%E6%96%B0%E4%BB%93%E5%BA%93%E7%9A%84%E4%BB%A3%E7%A0%81/"/>
+      <url>2021/01/13/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8git%E6%9B%B4%E6%96%B0%E4%BB%93%E5%BA%93%E7%9A%84%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>困境描述：有些时候对代码做了一些优化，或者直接叫改变了原来的代码，需要更新github仓库里之前提交的代码，<br>我们该去如何操作？接下来分享的就是“如何使用git更新仓库的代码”</p><a id="more"></a><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><pre><code>- 命令：cd &quot;更新文件下的目录&quot;- 命令：git init  //初始化- 命令：git add &quot;更新的文件&quot;- 命令：git commit -m &quot;描述更新的文件&quot;- 命令 git push origin master -f</code></pre><h2 id="补充—-进行连接"><a href="#补充—-进行连接" class="headerlink" title="(补充—) 进行连接"></a>(补充—) 进行连接</h2><pre><code>- 命令：git remote add origin &quot;你的仓库clone地址&quot;  //origin这里可以随便取名 push的时候 名字一样就行</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自动化下载图片资源</title>
       <link href="2021/01/12/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/"/>
       <url>2021/01/12/%E8%87%AA%E5%8A%A8%E5%8C%96%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E8%B5%84%E6%BA%90/</url>
